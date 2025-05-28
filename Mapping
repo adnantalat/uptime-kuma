@@ -1,0 +1,7 @@
+  If you wnat to setup the presistant storage on host server use following commands to setup the install folder. 
+    Creation of presisnt folder needs to happen before running the docker Stack in Portainer 
+       
+sudo mkdir -p /opt/uptime-kuma
+sudo chown -R $USER:$USER /opt/uptime-kuma/
+sudo chmod -R 775 /opt/uptime-kuma/
+    
